@@ -20,6 +20,19 @@ pip install numpy matplotlib
 * [Polynomial Decay](https://github.com/csreddy98/learning-rate-decay-schedulers/blob/main/step-decay/step-lr-decay.py)
 
 ----
+## Explanation
+
+### Linear Decay Scheduler: 
+The learning rate is decayed linearly from the initial learning rate to minimum learning rate over a specified number of epochs. The formula for the learning rate is given below:
+```
+lr = lr_min + (lr_max - lr_min) * (1 - epoch / epochs)
+```
+### Exponential Decay Scheduler:
+
+The learning rate is decayed exponentially over a specified number of epochs. The formula for the learning rate is given below:
+```
+lr = lr_min + (lr_max - lr_min) * (decay_rate) ^ (epoch / epochs)
+```
 
 ### Step Decay Scheduler:
 

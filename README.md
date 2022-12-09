@@ -1,6 +1,5 @@
 # Learning Rate Scheduler
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/csreddy98/learning-rate-decay-schedulers/blob/fdccd94e6f540c01582fe1f409a1f6ef70633e69/LICENSE)
-[]
 
 
 This repository contains a collection of custom learning rate schedulers. These Scheduler classes can be used to decay the learning rate during training.
